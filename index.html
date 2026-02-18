@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Đăng nhập đi má</title>
+<title>đăng nhập đi má</title>
 
 <style>
 body{
@@ -60,7 +60,7 @@ button:hover{
 <body>
 
 <div class="box">
-<h2>Đăng nhập</h2>
+<h2>đăng nhập đi má</h2>
 
 <input type="text" id="username" placeholder="Tên đăng nhập">
 <input type="password" id="password" placeholder="Mật khẩu">
@@ -75,16 +75,13 @@ function login(){
     var user=document.getElementById("username").value;
     var pass=document.getElementById("password").value;
 
-    if(user==="admin" && pass==="123456"){
+    if(user !== "" && pass !== ""){
         window.location.href="home.html";
     }else{
-        document.getElementById("message").innerHTML="Sai tài khoản hoặc mật khẩu ❌";
+        document.getElementById("message").innerHTML="Nhập gì đó đi má 😆";
     }
 }
-
 </script>
 
 </body>
 </html>
-
-
