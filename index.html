@@ -76,13 +76,14 @@ function login(){
     var pass=document.getElementById("password").value;
 
     if(user==="admin" && pass==="123456"){
-        document.getElementById("message").style.color="green";
-        document.getElementById("message").innerHTML="Đăng nhập thành công 🎉";
+        window.location.href="home.html";
     }else{
         document.getElementById("message").innerHTML="Sai tài khoản hoặc mật khẩu ❌";
     }
 }
+
 </script>
 
 </body>
 </html>
+
